@@ -3,17 +3,40 @@
     margin: 0;
     font-family: Raleway, sans-serif;
     color: white;
-    text-align: center;
+    text-align: left;
 }
 
 .header {
+    position: relative;
+    text-align: center;
     background: linear-gradient(45deg, red, purple);
     width: 100%;
     height: 30%;
 }
 
+#name {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 30%;
+    top: 34%;
+}
+
+#social {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 30%;
+    top: 90px;
+}
+
+#centered {
+    text-align: center;
+}
+
 body {
     background-color: rgb(32, 6, 23);
+    /* background: linear-gradient(rgb(32, 6, 23), rgb(49, 7, 35)); */
 }
 
 .line1 {
@@ -32,21 +55,144 @@ h1 {
 
 .social-git {
     position: absolute;
-    top: 25%;
+    top: 82%;
     margin-top: -5px;
     margin-left: -77px;
 }
 
 .social-handshake {
     position: absolute;
-    top: 25%;
+    top: 82%;
     margin-top: -5px;
     margin-left: -20px;
 }
 
 .social-ln {
     position: absolute;
-    top: 25%;
+    top: 82%;
     margin-top: -5px;
     margin-left: 37px;
+}
+
+.intro-container {
+    position: relative;
+    padding: 20px;
+    margin: 10%;
+    margin-top: 2%;
+    /* left: 20%; */
+    /* width: 800px; */
+}
+
+.photo {
+    /* position: relative; */
+    float: left;
+    margin-right: 10px;
+    /* padding: 20px;
+    left: 20%; */
+}
+
+.intro span {
+    position: absolute;
+    float: right;
+    margin-top: 50%;
+}
+
+h5 {
+    font-size: 20pt;
+}
+
+
+/*   <meta name = "viewport" content = "width=device-width, initial-scale=1.0"> */
+
+
+/* @media only screen and (max-width: ) {
+
+} */
+
+@media only screen and (max-width: 772px) {
+    #name {
+        position: relative;
+        text-align: center;
+        width: 100%;
+        height: 30%;
+        top: 28%;
+    }
+}
+
+@media only screen and (max-height: 666px) {
+    /*568*/
+    #name {
+        position: relative;
+        text-align: center;
+        width: 100%;
+        height: 30%;
+        top: 20%;
+    }
+    h1 {
+        position: relative;
+        font-size: 20pt;
+        top: 80%;
+    }
+    .social-button {
+        width: 25px;
+    }
+    .social-git {
+        position: absolute;
+        top: 30%;
+        margin-top: -5px;
+        margin-left: -74px;
+    }
+    .social-handshake {
+        position: absolute;
+        top: 30%;
+        margin-top: -5px;
+        margin-left: -10px;
+    }
+    .social-ln {
+        position: absolute;
+        top: 30%;
+        margin-top: -5px;
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (min-height: 1105px) {
+    h1 {
+        position: relative;
+        font-size: 50pt;
+        top: 50%;
+    }
+    .social-git {
+        position: absolute;
+        top: 160%;
+        margin-top: -5px;
+        margin-left: -77px;
+    }
+    .social-handshake {
+        position: absolute;
+        top: 160%;
+        margin-top: -5px;
+        margin-left: -20px;
+    }
+    .social-ln {
+        position: absolute;
+        top: 160%;
+        margin-top: -5px;
+        margin-left: 37px;
+    }
+    .social-button {
+        width: 40px;
+    }
+}
+
+@media only screen and (max-height: 475px) {
+    #social {
+        display: none;
+    }
+}
+
+@media only screen and (max-height: 179px) {
+    .header {
+        display: none;
+    }
 }
