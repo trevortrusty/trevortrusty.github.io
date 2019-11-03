@@ -30,17 +30,9 @@
     top: 90px;
 }
 
-#centered {
-    text-align: center;
-}
-
-body {
-    background-color: rgb(32, 6, 23);
-    /* background: linear-gradient(rgb(32, 6, 23), rgb(49, 7, 35)); */
-}
-
 .line1 {
     border: 2pt solid whitesmoke;
+    background-color: transparent;
 }
 
 h1 {
@@ -72,33 +64,6 @@ h1 {
     top: 82%;
     margin-top: -5px;
     margin-left: 37px;
-}
-
-.intro-container {
-    position: relative;
-    padding: 20px;
-    margin: 10%;
-    margin-top: 2%;
-    /* left: 20%; */
-    /* width: 800px; */
-}
-
-.photo {
-    /* position: relative; */
-    float: left;
-    margin-right: 10px;
-    /* padding: 20px;
-    left: 20%; */
-}
-
-.intro span {
-    position: absolute;
-    float: right;
-    margin-top: 50%;
-}
-
-h5 {
-    font-size: 20pt;
 }
 
 
