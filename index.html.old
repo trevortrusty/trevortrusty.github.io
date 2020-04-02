@@ -13,8 +13,6 @@
     </head>
 
     <body>
-	<iframe src="silence.mp3" allow="autoplay" id="audio"></iframe>
-	<audio id="player" autoplay controls><source src="nothing.mp3" type="audio/mp3"></audio>
         <div class = "header">
             <div id = "name">
                 <h1 id = "centered">Trevor Trusty</h1>
@@ -33,7 +31,7 @@
             <span class = "intro">
                 <br>
                 <h5 >About me</h5>
-                <p>I am a software developer, primarily specialising in back end development. I am a Computer Science student at Wayne State University, and you can find my technical skills, projects, etc. here on my webpage. </p>
+                <p>Software developer, primarily specialising in back-end development. Studying Computer Science at Wayne State University, and you can find my technical skills, projects, etc. here on my webpage. </p>
             </span>
         </div>
         
