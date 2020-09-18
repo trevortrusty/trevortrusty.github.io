@@ -49,6 +49,14 @@ h5 {
     margin: 10px;
 }
 
+table,
+th,
+td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 8px;
+}
+
 input[type=text] {
     background-color: black;
 }
